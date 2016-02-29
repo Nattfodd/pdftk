@@ -6,7 +6,6 @@ require 'byebug'
 
 # Ruby Wrapper for PDFTK command line tool
 module Pdftk
-  extend Posix
 
   DEFAULT_FOLDER = "/tmp/pdftk-tempfiles/#{Process.pid}_#{SecureRandom.uuid}"
 
